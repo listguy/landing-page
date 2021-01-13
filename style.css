@@ -1,0 +1,33 @@
+body {
+  background: rgb(50, 74, 106);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 74, 106, 1) 0%,
+    rgba(85, 122, 159, 1) 64%
+  );
+}
+
+#header-img {
+  display: block;
+  margin: 0 auto;
+  height: 120px;
+  width: 300px;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 4vh;
+  background-color: rgba(10, 12, 10, 0.65);
+}
+.nav-link {
+  margin: 0 4vw;
+  padding: 10px 6px;
+  border-radius: 12px;
+  background-color: rgb(18, 68, 102);
+  color: wheat;
+  text-decoration: none;
+}
