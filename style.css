@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(50, 74, 106);
   background: linear-gradient(
@@ -5,6 +9,7 @@ body {
     rgba(50, 74, 106, 1) 0%,
     rgba(85, 122, 159, 1) 64%
   );
+  color: wheat;
 }
 
 #header-img {
@@ -28,6 +33,24 @@ nav {
   padding: 10px 6px;
   border-radius: 12px;
   background-color: rgb(18, 68, 102);
-  color: wheat;
   text-decoration: none;
+}
+
+section {
+  background-color: rgba(230, 230, 230, 0.4);
+  height: 65vh;
+  width: 90vw;
+  margin: 6vh auto;
+  border-radius: 10px;
+}
+
+section h2 {
+  background-color: rgb(30, 32, 30);
+  color: cornflowerblue;
+  width: fit-content;
+  padding: 8px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 25px;
 }
